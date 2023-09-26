@@ -24,6 +24,6 @@ public class Movimento : MonoBehaviour
         // Normalizar o movimento para que o personagem não se mova mais rápido na diagonal
         movimento.Normalize();
 
-        transform.Translate(movimento * velocidadeMovimento * Time.deltaTime)
+        transform.Translate(movimento * velocidadeMovimento * Time.deltaTime);
     }
 }
